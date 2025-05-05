@@ -7,7 +7,7 @@ Built as a fun project to explore PHP and WordPress plugin development.
 ## Features
 - Displays current weather for a configurable location
 - Uses WeatherAPI.com for accurate weather data
-- Admin settings page to set location, API key, and temperature unit
+- Admin settings page to set location, API key, and default temperature unit
 
 ## Installation
 1. Download or clone this repository into your WordPress `wp-content/plugins` directory.
@@ -23,7 +23,7 @@ Built as a fun project to explore PHP and WordPress plugin development.
 After activation and configuration, the plugin will display weather information for your chosen location. You can use the shortcode `[weather_card]` to show weather data on your site.
 
 ## License
-This plugin is licensed under the [GPL v2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
+This plugin is licensed under the [GPL v2](https://www.gnu.org/licenses/gpl-2.0.html).
 
 ---
 
