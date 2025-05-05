@@ -1,0 +1,59 @@
+.cmw-card {
+    background-color: #007d99;
+    background-image: linear-gradient(135deg,#007d99,#002e3d);
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    max-width: 350px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+ 
+.card-top-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    
+}
+ 
+.card-time,
+.card-date {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-inline: 1rem;
+}
+ 
+.card-location {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+ 
+.card-temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-temp img {
+    width: 64px;
+    height: 64px;
+    margin-right: 0.5rem;
+}
+
+.temp-val {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}

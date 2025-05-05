@@ -1,0 +1,79 @@
+/* extended the styling for the weather card's additional info and forecast */
+
+.cmw-extra-info {
+    margin: 1.5rem 0 1rem 0;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    background: rgba(255,255,255,0.06);
+    font-size: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.cmw-extra-info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+.cmw-extra-info-row:last-child {
+    margin-bottom: 0;
+}
+.cmw-extra-info-label {
+    font-weight: 500;
+    opacity: 0.85;
+}
+.cmw-extra-info-value {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+.cmw-forecast {
+    margin-top: 1.5rem;
+    border-radius: 0.75rem;
+    background: rgba(255,255,255,0.04);
+    padding: 1rem;
+}
+.cmw-forecast-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    text-align: left;
+}
+.cmw-forecast-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+.cmw-forecast-day {
+    flex: 1;
+    text-align: center;
+}
+.cmw-forecast-day-label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+.cmw-forecast-icon {
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+}
+.cmw-forecast-temp {
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    font-weight: 600;
+}
+.cmw-sun-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.cmw-sun-label {
+    font-size: 0.97rem;
+    font-weight: 500;
+}
+.cmw-sun-time {
+    font-size: 1.07rem;
+    font-weight: 700;
+}
